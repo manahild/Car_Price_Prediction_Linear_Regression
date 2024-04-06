@@ -6,21 +6,32 @@ The dataset used for training the model contains information about used cars, in
 
 
 Name: Name of the car.
+
 Company: Manufacturer/company of the car.
+
 Year: Year of manufacture.
+
 Price: Price of the car.
+
 Kilometers Driven: Distance traveled by the car in kilometers.
+
 Fuel Type: Type of fuel used by the car.
+
 The dataset consists of 892 entries with 6 columns. Initially, data cleaning and preprocessing steps were performed to ensure data quality and consistency.
 
 ## Data Preprocessing
 Data preprocessing steps included:
 
 Removing non-numeric values from the 'year' and 'price' columns.
+
 Converting data types to appropriate formats.
+
 Handling missing values.
+
 Removing outliers.
+
 Feature engineering and transformation.
+
 After preprocessing, the dataset was reduced to 816 entries with 6 columns.
 
 ## Exploratory Data Analysis (EDA)
